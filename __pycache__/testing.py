@@ -1,0 +1,5 @@
+arr = list(map(int, input().split()))
+p = sum(arr)
+maxValue = p -min(arr)
+minValue = p-max(arr)
+print(minValue,maxValue)
